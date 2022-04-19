@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main(void) {
+//definir as variáveis A,B e soma.
+
+float A;
+float B;
+float soma;
+
+
+printf("DIGITE O PRIMEIRO NÚMERO: \n");
+
+//receber o valor referente a variável A e arquivá-la.
+scanf("%F",&A);
+
+//
+printf("DIGITE O SEGUNDO NÚMERO: \n");
+
+//receber o valor referente a variável B e arquivá-la.
+scanf("%f",&B);
+
+//definir a fórmula para que ocorra a soma dos dois números.
+soma = A+B;
+
+//mostrar o resultado da soma dos dois números
+printf("A SOMA DOS DOIS NÚMEROS É: %.2f",soma);
+
+
+  return 0;
+}
