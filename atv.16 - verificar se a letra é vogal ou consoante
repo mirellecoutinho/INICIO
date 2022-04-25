@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+
+char letra;
+
+printf("\nDigite uma letra:\n");
+  
+scanf("%c", &letra);
+
+if (letra =='a'||letra =='e'|| letra =='i'||letra =='o'||letra =='u')
+printf("A letra é uma vogal:%c",letra);
+
+else 
+printf("A letra é uma consoante:%c\n", letra);
+  
+  return 0;
+}
