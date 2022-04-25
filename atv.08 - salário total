@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void) {
+//definir as variáveis hora trabalhada (ht), valor da hora (vh) e salário total (st).
+float ht, vh, st;
+
+// definir horas trabalhadas no mês;
+printf("Quantas horas você trabalhou no mês?\n");
+
+// receber a variável ht e armazená-la.
+scanf("%f",&ht);
+
+//definir salário por horas trabalhadas.
+printf("Qual o valor de uma hora trabalhada?\n");
+
+// receber o valor da variável vh e armazená-la.
+scanf("%f",&vh);
+
+// definir a formula para calcular o salário total do mês.
+st = ht*vh;
+
+// mostrar o salário total no final do mês.
+printf("\nO valor do seu salário do mês é: %0.2fR$",st );
+
+  return 0;
+}
