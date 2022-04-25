@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main(void) {
+
+float numero1, numero2, numero3, numero4, numero5, soma, media;
+
+printf("Digite o primeiro número:\n");
+scanf("%f", &numero1);
+
+printf("Digite o segundo número:\n");
+scanf("%f", &numero2);
+  
+printf("Digite o terceiro número:\n");
+scanf("%f", &numero3);
+  
+printf("Digite o quarto número:\n");
+scanf("%f", &numero4);
+
+printf("Digite o quinto número:\n");
+scanf("%f", &numero5);
+
+soma = numero1+numero2+numero3+numero4+numero5;
+printf("A soma dos números é: %0.2f\n",soma);
+
+media = soma/2;
+
+printf("A média dos números é: %0.2f\n", media);
+  
+  
+  return 0;
+}
