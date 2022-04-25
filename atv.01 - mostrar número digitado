@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+// declarar a variável A.
+
+float A;
+// digitar a mensagem solicitando o número.
+  
+printf("Digite um número:\n");
+// receber a variável e armazenar.
+  
+scanf("%f", &A);
+  //mostrar mensagem informando o número selecionado.
+  
+printf ("\nO número selecionado foi: %0.2f", A);
+
+
+  
+  return 0;
+}
