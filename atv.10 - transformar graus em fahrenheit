@@ -14,7 +14,7 @@ printf("A temperatura em °C é: \n");
 
 scanf("%f", &c);
 
-//determinar a fórmula de conversão de celsius para Fahrenheit.o	C = 5 * ((F-32) / 9).
+//determinar a fórmula de conversão de celsius para Fahrenheit.o	
 
 f = ((9*c)+160)/5;
 
