@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+
+float n1,n2;
+  
+printf("Digite o primeiro número:\n"); 
+
+scanf("%f", &n1);
+  
+printf("Digite o segundo número:\n");
+
+scanf("%f", &n2);
+  
+if (a > b)
+{printf("O numero maior é: %0.1f\n",n1); }
+  
+else if (b > a)
+{printf("O numero maior é: %0.1f\n",n2);}
+
+  return 0;
+}
