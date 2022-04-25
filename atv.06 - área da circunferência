@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+// definir as variáveis raio,pi e área.
+
+float raio, area, pi;
+
+printf("Digite o raio da circunferência:\n");
+
+scanf("%f",&raio);
+  
+pi = 3.14;
+  
+área = pi*raio*raio;
+
+printf("A área da circunferência é igual a: %0.2f",area);
+
+
+  return 0;
+}
