@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void) {
+
+// determinar as variáveis c e f.
+
+float c, f;
+
+//informar a temperatura em °C.
+
+printf("A temperatura em °C é: \n");
+
+//receber o número referente a variável e armazená-lo.
+
+scanf("%f", &c);
+
+//determinar a fórmula de conversão de celsius para Fahrenheit.o	C = 5 * ((F-32) / 9).
+
+f = ((9*c)+160)/5;
+
+//mostrar o resultado da conversão de celsius para 
+
+printf("A temperatura em graus Fahrenheit é: %0.1f F \n",f);
+
+  return 0;
+}
