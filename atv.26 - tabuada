@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+#define INICIOTAB 1
+#define FINALTAB 15
+
+int main(void) {
+
+int numero;
+int contador = INICIOTAB;
+
+printf("INFORME O NÚMERO QUE VOCÊ DESEJA SABER A TABUADA:\n");
+scanf("%i", &numero);
+
+while(numero<= 1 || numero>=15){
+printf("VALOR INVÁLIDO\n");
+printf("INFORME O NÚMERO QUE VOCÊ DESEJA SABER A TABUADA:\n");
+scanf("%i", &numero);}
+
+printf("A TABUADA DO NÚMERO ESCOLHIDO É: %i\n", numero);
+
+while (contador >= INICIOTAB && contador <=FINALTAB){
+ printf("%i x %i = %i\n", numero, contador, contador*numero);
+ contador++;
+}
+  
+  return 0;
+}
