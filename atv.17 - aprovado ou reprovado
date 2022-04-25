@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main(void) {
+
+//Determinar as variáveis n1,n2 e media.
+float n1,n2,media;
+
+//Determinar o valor referente a variável n1.
+printf("Digite a primeira nota parcial:\n");
+
+//Receber a variável e armazená-la.
+scanf("%f", &n1);
+
+//Determinar o valor referente a variável n2.
+printf("Digite a segunda nota parcial:\n");
+
+//Receber a variável e armazená-la.
+scanf("%f", &n2);
+
+//Calcular a media dos valores das duas variáveis.
+media = (n1+n2)/2;
+
+//Se o valor das notas for maior que 10, mostrará a mensagem inválido.
+if (n1 > 10|| n2 > 10)
+printf("inválido");
+  
+//Se o valor da media for maior ou igual a 7, o aluno estará aprovado.
+else if (media >= 7 && media < 10)
+printf("aprovado: Nota %f\n",media);
+
+//Se o valor da media for menor que 7, o aluno estará reprovado.
+else if (media<7)
+printf("reprovado: Nota %0.1f", media);
+
+//Se o valor da media for igaul a 10, o aluno estará aprovado com distinção.
+else 
+printf("Aprovado com distinção: Nota %0.1f", media);
+
+  return 0;
+}
