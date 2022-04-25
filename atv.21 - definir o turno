@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main(void) {
+  
+//declarar a variável turno.
+char turno;
+  
+//solicitar o turno do estudante
+printf("Qual é o seu turno: (digite M - matutino, V - vespertino, N - noturno)\n");
+  
+//armazenar o valor referente ao turno
+scanf("%c", &turno);
+
+//se o valor referente ao turno for matutino, mostrará uma mensagem de bom dia.
+if (turno == 'M')
+printf("Bom dia!");
+
+//se o valor referente ao turno for vespertino, mostrará uma mensagem de bom dia.
+else if (turno == 'V')
+printf("Boa tarde!");
+  
+//se o valor referente ao turno for matutino, mostrará uma mensagem de bom dia.
+else if (turno == 'N')
+printf("Boa noite!");
+  
+//se o valor referente ao turno não for nenhum dos declarados anteriormente, mostrará uma mensagem inválido.
+else
+printf("inválido");
+
+  return 0;
+}
