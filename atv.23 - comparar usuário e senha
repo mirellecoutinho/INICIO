@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+
+char usuario[10];
+char senha[10];
+
+printf("Digite o usuário:\n");
+scanf("%s", usuario);
+
+printf("Digite a senha:\n");
+scanf(" %s", senha);
+
+ while(!strcmp(senha , usuario)){
+   printf("Senha inválida");
+   printf("\nDigitar uma nova senha:");
+   scanf(" %s", senha);}
+
+  printf("Senha válida");
+  
+  return 0;
+}
