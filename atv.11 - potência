@@ -1,0 +1,60 @@
+#include <stdio.h>
+
+int main(void) {
+
+// determinar as variáveis n1, n2, n3, mult, soma e pot. Sendo n1 e n2 inteiros e n3 real.
+
+int n1, n2;
+float n3, , mult, soma, pot;
+
+  
+//escreva o valor de n1 sendo ele um número inteiro.
+
+printf("Determine o primeiro número: \n");
+
+//receber o número referente a n1 e armazená-lo.
+
+scanf("%d", &n1);
+
+//escreva o valor de n1 sendo ele um número inteiro.
+
+printf("Determine o segundo número: \n");
+
+//receber o número referente a n1 e armazená-lo.
+
+scanf("%d", &n2);
+
+//escreva o valor de n2 sendo ele um número real.
+
+printf("Determine o terceiro número: \n");
+
+//receber o número referente a n3 e armazená-lo.
+  
+scanf("%f", &n3);
+
+// determinar as fórmulas para realizar a multiplicação.
+
+mult = (n1*2)*(n2/2);
+
+//mostrar o resultado do produto entre os dois números.
+  
+printf("O resultado do produto é: %0.2f\n", mult);
+  
+//determinar a formula para realizar a soma dos números.
+  
+soma = (n1*3)+n3;
+
+// mostrar o resultado da soma entre os dois números.
+  
+printf("O resultado da soma é: %0.2f\n", soma);
+
+//determinar a formula para realizar a soma dos números.
+
+pot = n3*n3*n3;
+
+// mostrar o resultado da potência.
+
+printf("O resultado da potência é: %0.2f\n", pot);
+
+  return 0;
+}
