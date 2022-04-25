@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void) {
+
+//Determinar a variável valor.
+float n;
+
+//Determinar um número.
+printf("Digite um número:\n");
+
+//Receber o valor da variável e arquivá-la.
+scanf("%f",&n);
+
+//Se o valor for maior ou igual a zero, o número é positivo
+if (n>=0)
+
+printf("O número é positivo\n");
+
+//Se o número for menor que zero, o número é negativo.
+else if (n<0)
+
+printf("O número é negativo\n");
+  return 0;
+}
