@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(void) {
+//definir as variáves l, área e dobro.
+float l, area, dobro;
+
+//digitar o valor para os lados do quadrado.
+printf("Digite o valor dos lados do quadrado: \n");
+
+//receber o valor da variável e armazenar.
+scanf("\n%f", &l);
+  
+//definir a fórmula da área do quadrado.
+area = l*l;
+
+// mostrar o resultado da área do quadrado.
+printf("\nA área do quadrado é: %0.2f\n",area);
+
+// definir a formula do dobro da área do quadrado.
+dobro = area*2;
+
+// mostrar o resultado do dobro da área.
+printf("\nO resultado do dobro da área é: %0.2f", dobro);
+
+
+  return 0;
+}
