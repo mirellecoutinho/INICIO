@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+//declarar as variáveis m e cm.
+  
+float m, cm;
+
+//digitar o valor do comprimento desejado
+printf("o comprimento em metros é: \n");
+
+//registrar o valor do comprimento e armazenar a variável
+scanf("%f",&m);
+
+//definir a formula para a conversão.
+cm = m*100;
+
+//mostrar o valor convertido em centimetros.
+printf("O comprimento em centimetros é: %0.2f cm\n",cm);
+
+
+  return 0;
+}
