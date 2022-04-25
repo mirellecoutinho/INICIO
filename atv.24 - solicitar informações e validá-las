@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void) { 
+
+char nome [3];
+float idade, salario;
+float salario;
+char sexo, estado_civil;
+
+
+printf("\nDigite o seu nome:\n");
+scanf("%s", nome);
+  
+while(nome[3] < 3){
+printf("Nome inválido\n");
+printf("digite o seu nome:\n");
+scanf("%s", nome);
+}
+printf("Nome válido\n");
+
+printf("\nDigite sua idade:\n");
+scanf("%f", &idade);
+
+while(idade <= 0 || idade >= 150){
+printf("Idade inválido\n");
+printf("Digite o sua idade:\n");
+scanf("%f",&idade);}
+printf("Idade válida\n");
+
+printf("\nDigite o valor de seu salário:\n");
+scanf("%f", &salario);
+
+while(salario <= 0 ){
+printf("Salario inválido\n");
+printf("Digite o seu salario:\n");
+scanf("%f",&salario);}
+  
+printf("salário válido\n");
+
+printf("\nDigite seu sexo:(F - feminino, M - masculino)\n");
+scanf(" %c",&sexo);
+  
+sexo = toupper(sexo);
+  
+while(sexo != 'F' && sexo != 'M'){
+printf("Sexo inválido\n");
+printf("Digite o seu sexo:\n");
+scanf(" %c",&salario);}
+  
+printf("sexo válido\n");
+
+printf("\nDigite seu estado civil:(S - solteiro, C - casado, V - viúvo, D - divorciado)\n");
+scanf(" %c", &estado_civil);
+
+estadocivil = toupper(estado_civil);
+  
+while(estado_civil != 'S' && estado_civil != 'C' && estado_civil != 'V' && estado_civil != 'D'){
+printf("Estado civil inválido\n");
+printf("Digite o seu estado civil:\n");
+scanf(" %c",&estado_civil);}
+  
+printf("Estado civil válido\n");
+
+ return 0;
+}
