@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main(void) {
+// definir as variáveis n1, n2, n3, n4, soma e média.
+
+float n1,n2,n3,n4,soma,media;
+
+// escreva qual é a primeira nota do bimestre
+  printf("Digite a primeira nota: \n");
+
+// receber o numero da varíavel n1 e armazenar.
+  scanf("%f", &n1);
+  
+// escreva qual é a segunda nota do bimestre.
+printf("Digite a segunda nota: \n");
+
+// receber o numero da varíavel n2 e armazenar.
+scanf("%f", &n2);
+  
+// escreva qual é a terceira nota do bimestre.
+printf("Digite a terceira nota: \n");
+
+// receber o numero da varíavel n3 e armazenar.
+scanf("%f", &n3);
+
+// escreva qual é a quarta nota do bimestre.
+printf("Digite a quarta nota: \n");
+
+// receber o numero da varíavel n4 e armazenar.
+scanf("%f", &n4);
+  
+soma = n1+n2+n3+n4;
+média = soma/4;
+
+//mostrar o resultado da média das quatro notas.
+printf("O valor da média das notas é: %0.2f", média);
+
+  return 0;
+}
