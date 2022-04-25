@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+  
+float numero [10];
+int n;
+  
+for( n=0; n < 10; n++) {
+printf("Digite um número[%i]:\n", n+1);
+scanf("%f", &numero[n]);}
+
+for( n=9; n>=0; n--) {
+printf("O número digitado foi [%i]: %0.2f\n", numero[n], n+1);}
+
+  return 0;
+}
