@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main(void) {
+
+float nota;
+
+printf("Digite a nota:\n");
+scanf(" %f",&nota);
+
+if (nota >= 0 && nota <= 10){
+ printf("Nota válida");}
+
+while (nota < 0 || nota > 10){
+  printf("Nota inválida\n");
+  printf("Digite novamente a nota:\n");
+  scanf(" %f", &nota);}
+  
+  printf("Nota válida");
+
+  return 0;
+}
