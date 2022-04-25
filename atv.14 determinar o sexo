@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main(void) {
+//determinar a variável sexo.
+char sexo;
+  
+//mostrar uma mensagem solicitando o sexo
+printf("Digite seu sexo:(f = feminino e m = masculino)\n");
+  
+// pegar a informação que foi digitada e armazená-la.
+scanf("%c", &sexo);
+
+// se o valor for igual a f, mostrará uma mensagem informando que o sexo é feminino.
+if (sexo == 'f')
+printf("O sexo é feminino: %c\n", sexo);
+  
+// se o valor for igual a f, mostrará uma mensagem informando que o sexo é masculino.
+else if (sexo == 'm')
+printf("O sexo é masculino: %c\n",sexo);
+
+// se o valor não for igual a f ou m, mostrará uma mensagem informando que o sexo é inválido.
+else if (sexo == 'n')
+
+printf("O sexo nao binario: %c\n",sexo); 
+
+printf("O sexo invalido: %c\n",sexo); 
+
+  return 0;
+}
