@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void) {
+
+float nota[4];
+int n;
+float soma=0, media=0;
+  
+for (n=0; n < 4; n++){
+printf("Digite a nota[%i]:\n", n+1);
+scanf(" %f",&nota[n]);}
+
+for (n=0; n < 4; n++){
+soma = soma + nota[n];
+}
+media = soma/4;
+
+for (n=0; n < 4; n++){
+  printf("as notas [%i] foram: %.2f\n",n+1, nota[n] );
+  }
+  printf("A média é: %.2f\n", media);
+  return 0;
+  }
+  
