@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void) {
+//declarar as variáveis a e p
+
+float a, p;
+
+//insira o valor referente a altura.
+
+  printf("Qual sua altura em metros?\n");
+
+//receber o valor referente a altura e arnazenar
+
+scanf("%f",&a);
+
+//definir a fómula para calcular o peso ideal.
+
+p = (72.7*a) - 58;
+
+//mostrar resultado do calculo do peso ideal.
+
+printf("O seu peso idéal é: %0.2f kg\n",p);
+
+  return 0;
+}
