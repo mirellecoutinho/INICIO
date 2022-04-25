@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main(void) {
+
+//Determinar as variáveis n1,n2 e n3.
+float n1,n2,n3;
+
+//Determinar o valor referente a variável n1.
+printf("\nDigite o primeiro número:\n");
+
+//Receber o valor de n1 e armazená-lo.
+scanf("%f",&n1);
+
+//Determinar o valor referente a variável n2.
+printf("\nDigite o segundo número:\n");
+
+//Receber o valor de n2 e armazená-lo.
+scanf("%f",&n2);
+
+//Determinar o valor referente a variável n3.
+printf("\nDigite o terceiro número:\n");
+
+//Receber o valor de n3 e armazená-lo.
+scanf("%f",&n3);
+
+//Se o valor de n1 for maior que os valores de n2 e n3, mostrará uma mensagem falando que ele é o maior número.
+if (n1 > n2 && n1 > n3)
+printf("\nO maior numero é: %0.2f\n", n1);
+
+//Se o valor de n2 for maior que os valores de n1 e n3, mostrará uma mensagem falando que ele é o maior número.
+else if (n2 > n1 && n2 > n3)
+printf("\nO maior numero é: %0.2f\n", n2); 
+
+//Se o valor de n3 for maior que os valores de n1 e n2, mostrará uma mensagem falando que ele é o maior número.
+else 
+printf("\nO maior numero é: %0.2f\n", n3);
+
+  return 0;
+}
