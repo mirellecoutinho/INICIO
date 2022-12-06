@@ -1,0 +1,26 @@
+num_pessoas = int(input("Determine o número de pessoas: "))
+numero_filhos = []
+salarios = []
+
+while num_pessoas > 0:
+  num_filhos = int(input("\nInforme o número de filhos: "))
+  salario = float(input("Informe o salário: "))
+  numero_filhos.append(num_filhos)
+  salarios.append(salario)
+  num_pessoas = num_pessoas - 1
+
+def media(num_filhos, salarios):
+  med_filhos = round(sum(numero_filhos)/len(numero_filhos), 2)
+  med_salario = round(sum(salarios)/len(salarios), 2)
+  max_salario = max(salarios)
+  
+  n = 0
+  for i in salarios:
+    if i <= 3600:
+      n = n + 1
+  perc = round((n/len(salarios)) * 100, 2)
+  
+  return (f"\nA média de filhos é: {med_filhos}\nA média dos salários é {med_salario}\nO maior salário é: {max_salario}\nO percentual de pessoas que recebem até 3 salários mínimos é: {perc}%")
+
+print(media(num_filhos, salarios))
+
